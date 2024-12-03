@@ -30,11 +30,11 @@ The assignment involves creating the **frontend of an online flower shop e-comme
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/<repository-name>.git
+   git clone https://github.com/IT3133-Practical/ICAE01.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd <repository-name>
+   cd ICAE01
    ```
 3. Install dependencies:
    ```bash
