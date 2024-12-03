@@ -5,8 +5,7 @@ import Product from './Product';
 import Cart from './Cart';
 import { useState } from 'react';
 
-
-export default function Products(){
+export default function Products() {
     const [cart, setCart] = useState([])
 
     const addToCart = (product) => {
@@ -28,8 +27,8 @@ export default function Products(){
             return [...prev, product]
         })
     }
-   
-    return(
+
+    return (
         <>
             <div className="item1">
                 <h1>Flower Shop</h1>
