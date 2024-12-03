@@ -35,13 +35,20 @@ export default function Products(){
                 <div className="grid-container">
                     {
                         //product
+                        flowers.map(({ name, img, price }, key) => {
+                            return (
+                                <div key={key}>
+                                    <Product name={name} price={price} img={img} addToCart={addToCart} />
+                                </div>
+                            )
+                        })
                     }
                 </div>
 
             </div>
             <div className="item3">
                 {
-                //cart
+                    //cart
                 }
             </div>
         </>
